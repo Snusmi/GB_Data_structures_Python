@@ -12,4 +12,4 @@ for i, item in enumerate(a):
     indices.append(i) if item % 2 == 0 else None
 
 print(a)
-print(indices)
+print(f"Индексы четных элементов\n{indices}")

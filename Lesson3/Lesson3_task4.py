@@ -7,7 +7,6 @@
 import random
 a = [random.randint(0,10) for _ in range(30)]
 a_unique = list(set(a))
-a_unique.sort()
 
 number = None
 max_count = 0
